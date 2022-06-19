@@ -17,7 +17,7 @@ export default function Create() {
 
     const createStudent = () => {
         
-        axios.post('http://localhost:5000/students', student).then(()=>{
+        axios.post('https://test-mern-project.netlify.app/students', student).then(()=>{
             window.location.reload(false);
         })
         
